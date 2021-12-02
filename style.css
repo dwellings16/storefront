@@ -1,0 +1,118 @@
+
+.card-body {
+ background-color: #B8B09E;
+ padding-top: 5rem;
+ padding-bottom: 5rem;
+}
+
+.card-body-1 {
+  background-color: #B8B09E;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+
+
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-item-r img {
+  width: 55px;
+  height: auto;
+}
+
+.nav-item-r {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+
+}
+
+
+
+
+
+
+h1 {
+  font-family: 'Fahkwang', sans-serif;
+}
+
+h2 {
+  font-family: 'Fahkwang', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+hr {
+  width: 30%;
+  margin-left: .5rem;
+  margin-right: auto;
+}
+
+
+
+
+.card {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.card-d {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top:3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.card-body-member {
+  background-color: #B8B09E;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card-text-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-title-info {
+font-family: 'Fahkwang', sans-serif;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.col-md-4 {
+padding-top: 9rem;
+
+}
+
+
+
+.social-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.row-f {
+  display: flex;
+  justify-content: space-between;
+}
