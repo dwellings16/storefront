@@ -1,4 +1,6 @@
 
+
+
 .card-body {
  background-color: #B8B09E;
  padding-top: 5rem;
@@ -39,11 +41,6 @@
 
 }
 
-
-
-
-
-
 h1 {
   font-family: 'Fahkwang', sans-serif;
 }
@@ -55,13 +52,41 @@ h2 {
   align-content: center;
 }
 
+h3 {
+  font-family: 'Fahkwang', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
 hr {
   width: 30%;
   margin-left: .5rem;
   margin-right: auto;
 }
 
+.card-text {
+  display: flex;
+  justify-content: center;
+  text-decoration-color: black;
+}
 
+a {
+ font-family: 'Fahkwang', sans-serif;
+ font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+}
 
 
 .card {
@@ -69,6 +94,10 @@ hr {
   margin-right: 3rem;
   margin-top: 5rem;
   margin-bottom: 3rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card-d {
@@ -104,8 +133,6 @@ padding-top: 9rem;
 
 }
 
-
-
 .social-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -115,4 +142,75 @@ padding-top: 9rem;
 .row-f {
   display: flex;
   justify-content: space-between;
+}
+
+.price {
+  font-weight: bold;
+  color: #3F9915;
+
+}
+
+@media (min-width: 1025px) {
+.h-custom {
+}
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+top: 13px;
+}
+
+.bg-grey {
+background-color: #eae8e8;
+}
+
+@media (min-width: 992px) {
+.card-registration-2 .bg-grey {
+border-top-right-radius: 16px;
+border-bottom-right-radius: 16px;
+}
+}
+
+@media (max-width: 991px) {
+.card-registration-2 .bg-grey {
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+}
+}
+
+
+.order-card {
+  width: 50%;
+  background-color: #f1f1f1;
+  margin: 3rem;
+}
+
+
+.card-header {
+  background-color: #B8B09E;
+  font-family: 'Fahkwang', sans-serif;
+}
+.order-card-body {
+  padding-bottom: 1rem;
+  padding-left: 1rem
+}
+
+.order-card-title {
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+
+}
+
+.order-card-text {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
 }
